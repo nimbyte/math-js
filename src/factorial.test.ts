@@ -9,15 +9,15 @@ test("factorial(0.1) throws an error", () => {
   expect(() => factorial(0.1)).toThrow();
 });
 
-test("factorial(0) throws an error", () => {
+test("factorial(0)", () => {
   expect(factorial(0)).toBe(1n);
 });
 
-test("factorial(1) throws an error", () => {
+test("factorial(1)", () => {
   expect(factorial(1)).toBe(1n);
 });
 
-test("factorial(5) throws an error", () => {
+test("factorial(5)", () => {
   expect(factorial(5)).toBe(120n);
 });
 
