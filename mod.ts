@@ -10,4 +10,4 @@
  * ```
  */
 
-export { factorial } from "./src/factorial";
+export { factorial } from "./src/factorial.ts";
