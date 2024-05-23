@@ -12,3 +12,4 @@
  */
 
 export { factorial } from "./src/factorial.ts";
+export { fibonacci } from "./src/fibonacci.ts";
