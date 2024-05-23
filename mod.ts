@@ -2,6 +2,7 @@
  * This module contains mathematical functions.
  * @module
  *
+ * @example
  * ```ts
  * import { factorial } from "@nimbyte/math-js";
  *
