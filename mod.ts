@@ -6,7 +6,8 @@
  * ```ts
  * import { factorial } from "@nimbyte/math-js";
  *
- * factorial(5n) // 120
+ * factorial(5) // 120n
+ * factorial(5n) // 120n
  * ```
  */
 
