@@ -2,7 +2,7 @@
  * Computes the Fibonacci number at the given index.
  *
  * @param {number | bigint} n - The index of the Fibonacci number to compute.
- * @returns {bigint} - The Fibonacci number at the given index.
+ * @returns {bigint} - The n-th Fibonacci number.
  *
  * @throws {RangeError} - If n is negative.
  * @throws {RangeError} - If n is not an integer.
