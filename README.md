@@ -1,3 +1,4 @@
 # Math functions
 
-[![JSR](https://jsr.io/badges/@libs/qrcode)](https://jsr.io/@libs/qrcode) [![JSR Score](https://jsr.io/badges/@libs/qrcode/score)](https://jsr.io/@libs/qrcode)
+[![JSR](https://jsr.io/badges/@nimbyte/math-js)](https://jsr.io/@nimbyte/math-js)
+[![JSR Score](https://jsr.io/badges/@nimbyte/math-js/score)](https://jsr.io/@nimbyte/math-js)
