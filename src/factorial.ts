@@ -4,13 +4,13 @@ export function factorial(n: number | bigint): bigint {
     if (!Number.isInteger(n)) {
       throw new RangeError("Factorial of non-integer numbers is not defined.");
     }
-    return factorialBigint(BigInt(n));
+    return factorialBigInt(BigInt(n));
   } else {
-    return factorialBigint(n);
+    return factorialBigInt(n);
   }
 }
 
-function factorialBigint(n: bigint): bigint {
+function factorialBigInt(n: bigint): bigint {
   if (n < 0) {
     throw new RangeError("Factorial of negative numbers is not defined.");
   }
