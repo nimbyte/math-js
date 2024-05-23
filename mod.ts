@@ -13,3 +13,4 @@
 
 export { factorial } from "./src/factorial.ts";
 export { fibonacci } from "./src/fibonacci.ts";
+export { harmonic } from "./src/harmonic.ts";
