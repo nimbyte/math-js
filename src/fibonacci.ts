@@ -1,5 +1,5 @@
 /**
- * Computes the Fibonacci number at the given index.
+ * Computes the n-th Fibonacci number.
  *
  * @param {number | bigint} n - The index of the Fibonacci number to compute.
  * @returns {bigint} - The n-th Fibonacci number.
