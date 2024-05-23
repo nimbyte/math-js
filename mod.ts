@@ -1,6 +1,12 @@
 /**
  * This module contains mathematical functions.
  * @module
+ *
+ * ```ts
+ * import { factorial } from "@nimbyte/math-js";
+ *
+ * factorial(5n) // 120
+ * ```
  */
 
 /** This function computes the factorial of the given integer */
