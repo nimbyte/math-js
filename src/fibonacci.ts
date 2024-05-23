@@ -1,10 +1,11 @@
-/** This function computes the Fibonacci number at the given index.
+/**
+ * Computes the Fibonacci number at the given index.
  *
- * @param n - The index of the Fibonacci number to compute.
- * @returns The Fibonacci number at the given index.
+ * @param {number | bigint} n - The index of the Fibonacci number to compute.
+ * @returns {bigint} - The Fibonacci number at the given index.
  *
- * @throws {RangeError} If the index is negative.
- * @throws {RangeError} If the index is not an integer.
+ * @throws {RangeError} - If n is negative.
+ * @throws {RangeError} - If n is not an integer.
  */
 export function fibonacci(n: number | bigint): bigint {
   if (n < 0) {

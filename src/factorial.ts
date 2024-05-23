@@ -1,4 +1,12 @@
-/** This function computes the factorial of the given integer */
+/**
+ * Computes the factorial of a non-negative integer.
+ *
+ * @param {number | bigint} n - The non-negative integer for which to compute the factorial.
+ * @returns {bigint} - The factorial of the given integer.
+ *
+ * @throws {RangeError} - If n is negative.
+ * @throws {RangeError} - If n is not an integer.
+ */
 export function factorial(n: number | bigint): bigint {
   if (typeof n === "number") {
     if (!Number.isInteger(n)) {

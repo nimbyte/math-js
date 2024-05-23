@@ -1,5 +1,5 @@
 /**
- * Returns the triangular number of n.
+ * Computes the n-th triangular number.
  *
  * @param {number | bigint} n - The position in the triangular number sequence (must be a non-negative integer).
  * @returns {bigint} - The n-th triangular number.
